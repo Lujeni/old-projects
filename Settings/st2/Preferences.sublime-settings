@@ -1,0 +1,56 @@
+{
+    "create_window_at_startup": false,
+    "ensure_newline_at_eof_on_save": true,
+    "trim_trailing_white_space_on_save": true,
+    "translate_tabs_to_spaces": true,
+    "translate_tabs_to_spaces": true,
+    "draw_white_space": "all",
+    "find_selected_text": true,
+    "tab_size": 4,
+    "font_size": 8.0,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "detect_slow_plugins": false,
+    "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+    "theme": "Soda Light.sublime-theme",
+    "ignored_packages":
+    [
+        "Vintage",
+        "SublimeCodeIntel"
+    ],
+    "file_exclude_patterns":
+    [
+      ".DS_Store",
+      "*.pyc"
+    ],
+    "folder_exclude_patterns":
+    [
+      ".git"
+    ],
+
+    // sublimelinter
+    "sublimelinter": true,
+    "sublimelinter_gutter_marks": true,
+    "sublimelinter_popup_errors_on_save": true,
+    "sublimelinter_notes": true,
+    "annotations": ["TODO", "README", "FIXME"],
+    
+    // flake8
+	"lint_on_save": true,
+	"popup": true,
+	"highlight": true,
+	"python_interpreter": "auto",
+	"pyflakes": true,
+	"pep8": true,
+	"complexity": -1,
+	"pep8_max_line_length": 79,
+	"select": [],
+	"ignore": ["E501"],
+	"ignore_files": [],
+    
+    // jedi
+    "python_interpreter_path": "python",
+    "python_package_paths": [],
+    "auto_complete_function_params": "all"
+
+}

@@ -1,0 +1,41 @@
+[core]
+    editor = /usr/bin/vim
+    excludesfile = ~/.gitignore_global
+
+[user]
+        name = Lujeni
+        email = julien@thebault.co
+
+[color]
+        branch = auto
+        diff = auto
+        status = auto
+
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+
+[color "diff"]
+        meta = yellow bold
+        frag = magenta bold
+        old = red
+        new = green
+
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
+[push]
+        default = matching
+
+[alias]
+    st = status -sb
+    r = reset HEAD
+    r1 = reset HEAD^
+    r2 = reset HEAD^^
+    rh = reset HEAD --hard
+    rh1 = reset HEAD^ --hard
+    rh2 = reset HEAD^^ --hard
+    co = checkout
+    gd = diff

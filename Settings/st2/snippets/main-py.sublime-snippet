@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+if __name__ == "__main__":
+    $1
+]]></content>
+    <tabTrigger>main</tabTrigger>
+    <scope>source.py</scope>
+</snippet>

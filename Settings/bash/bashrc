@@ -1,0 +1,16 @@
+export CLICOLOR=1
+export GREP_OPTIONS='--color=auto'
+
+alias nano='sudo nano'
+alias vim='sudo vim'
+alias apg='sudo apg -m 10 -x 12 -M LCNS -n 1'
+alias nzno='sudo nano'
+alias nani='sudo nano'
+alias log='sudo tailf /var/log/everything/current'
+alias pyc="find . -name '*.pyc' -delete"
+
+PS1="\W <\u@\h \l $$> \t \$>"
+
+export WORKON_HOME=~/.virtualenvs
+mkdir -p $WORKON_HOME
+source /usr/bin/virtualenvwrapper.sh

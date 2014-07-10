@@ -1,0 +1,4 @@
+python-irclib==0.4.8
+path.py==3.0.1
+pyzmq==2.1.10
+
