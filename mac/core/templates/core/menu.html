@@ -1,0 +1,32 @@
+{% load cms_tags %}
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">SP<i class="fa fa-circle"></i>T</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="{% page_url "home" %}">{% page_attribute "page_title" "home" %}</a></li>
+        <li><a href="{% page_url "about" %}">{% page_attribute "page_title" "about" %}</a></li>
+        <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="headerwrap">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-lg-8 col-lg-offset-2">
+            <h1>Test</b></h1>
+            <h2>test test test</h2>
+            </div>
+        </div>
+    </div>
+</div>
